@@ -9,7 +9,7 @@
     "jsonUrl": "https://frc-509.github.io/stormkit/StormKit.json",
     "javaDependencies": [
         {
-            "groupId": "com.redstorm509.stormkit",
+            "groupId": "com.redstorm509",
             "artifactId": "StormKit-java",
             "version": "0.0.1"
         }
@@ -17,7 +17,7 @@
     "jniDependencies": [],
     "cppDependencies": [
         {
-            "groupId": "com.redstorm509.stormkit",
+            "groupId": "com.redstorm509",
             "artifactId": "StormKit-cpp",
             "version": "0.0.1",
             "libName": "StormKit",
