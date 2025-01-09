@@ -1,10 +1,10 @@
 {
     "fileName": "StormKit.json",
     "name": "StormKit",
-    "version": "0.1.0",
+    "version": "0.2.0",
+    "frcYear": "2025",
     "uuid": "cb000aa1-c6a9-4527-87e8-6258a83b4a4e",
-	"frcYear": "2024",
-    "mavenUrls": [
+	"mavenUrls": [
         "https://frc-509.github.io/stormkit/repo"
     ],
     "jsonUrl": "https://frc-509.github.io/stormkit/StormKit.json",
@@ -12,7 +12,7 @@
         {
             "groupId": "com.redstorm509",
             "artifactId": "StormKit-java",
-            "version": "0.1.0"
+            "version": "0.2.0"
         }
     ],
     "jniDependencies": [],
@@ -20,14 +20,18 @@
         {
             "groupId": "com.redstorm509",
             "artifactId": "StormKit-cpp",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "libName": "StormKit",
             "headerClassifier": "headers",
             "sharedLibrary": false,
             "skipInvalidPlatforms": true,
             "binaryPlatforms": [
                 "windowsx86-64",
-                "linuxathena"
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
             ]
         }
     ]
