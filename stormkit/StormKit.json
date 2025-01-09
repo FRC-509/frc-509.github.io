@@ -1,7 +1,7 @@
 {
     "fileName": "StormKit.json",
     "name": "StormKit",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "frcYear": "2025",
     "uuid": "cb000aa1-c6a9-4527-87e8-6258a83b4a4e",
 	"mavenUrls": [
@@ -12,7 +12,7 @@
         {
             "groupId": "com.redstorm509",
             "artifactId": "StormKit-java",
-            "version": "0.2.0"
+            "version": "0.2.1"
         }
     ],
     "jniDependencies": [],
@@ -20,7 +20,7 @@
         {
             "groupId": "com.redstorm509",
             "artifactId": "StormKit-cpp",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "libName": "StormKit",
             "headerClassifier": "headers",
             "sharedLibrary": false,
